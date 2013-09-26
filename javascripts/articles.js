@@ -25,7 +25,7 @@
 
   ready = function() {
     var url;
-    url = 'http://api.trade.gov/trade_articles/search.json?trade_region=African%20Growth%20and%20Opportunity%20Act';
+    url = 'http://api.trade.gov/trade_articles/search.json?geo_region=Africa';
     return $.getJSON(url, renderData);
   };
 
